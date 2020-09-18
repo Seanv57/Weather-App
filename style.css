@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 80vh;
+}
+
+.title {
+  background-color: #028090;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  height: 10vh;
+}
+
+#temp {
+  text-align: center;
+}
+
+#temp-value, #degrees {
+  font-size: 4rem;
+}
+
+#temp-unit, #climate, #location {
+  font-size: 2rem;
+}
+
+#temp, #climate, #location {
+  margin: 1rem;
+}
+
+#temp-icon {
+  height: auto;
+  width: 40%;
+}
